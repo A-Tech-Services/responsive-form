@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+
+    <link rel="stylesheet" href="/style/css.css">
+</head>
+<body>
+
+    <div class="herohead">
+        <img src="/image/exchange.jpg" alt="Exchange">
+
+        <div class="overlay">
+
+        </div>
+
+
+        <div class="text">
+            <h1>Welcome Paypal Ng.</h1>
+        </div>
+    </div>
+
+
+
+
+    <h2>Responsive Form</h2>
+     <p>Resize the browser window to see the effect. when the screen is less than 600px wide, make the coloumn stack on
+         top of each other.
+     </p>
+
+     <div class="container">
+         <form action="#" method="post">
+
+            <!-- first row -->
+             <div class="row">
+                 <div class="col-25">
+                     <label for="fn">First Name:</label>
+                 </div>
+                 <div class="col-75">
+                     <input type="text" name="firstname" placeholder="Your name...">
+                 </div>
+             </div>
+             <!-- first row end here. -->
+
+             <!-- second row -->
+             <div class="row">
+                 <div class="col-25">
+                     <label for="ln">Last Name:</label>
+                 </div>
+                 <div class="col-75">
+                     <input type="text" name="lastname" placeholder="Your last name...">
+                 </div>
+             </div>
+             <!-- second row ends here -->
+
+             <!-- third row -->
+             <div class="row">
+                 <div class="col-25">
+                     <label for="country">Country:</label>
+                 </div>
+                 <div class="col-75">
+                    <select name="country" id="country">
+                        <option value="select">Select</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="USA">United States</option>
+                    </select>
+                 </div>
+             </div>
+             <!-- third row ends here -->
+
+             <!-- last row -->
+             <div class="row">
+                 <div class="col-25">
+                     <label for="message">Message:</label>
+                 </div>
+                 <div class="col-75">
+                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Type in your message here...."></textarea>
+                 </div>
+             </div><br>
+             <!-- last row ends here -->
+
+             <!-- button row -->
+             <div class="row">
+                 <input type="submit" value="Submit">
+             </div>
+
+         </form>
+     </div>
+</body>
+</html>
